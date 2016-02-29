@@ -1,0 +1,5 @@
+{
+  "name": "validate-npm-package-name",
+  "main": "index.d.ts",
+  "homepage": "https://github.com/npm/validate-npm-package-name"
+}

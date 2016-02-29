@@ -1,0 +1,34 @@
+{
+  "name": "npm-validate-npm-package-name",
+  "description": "The type definition for https://github.com/npm/validate-npm-package-name",
+  "version": "0.0.1",
+  "author": "unional",
+  "license": "MIT",
+  "scripts": {
+    "bundle": "typings bundle . -o bundle.d.ts",
+    "test": "npm run bundle && ts-node test/test.ts"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typed-typings/npm-validate-npm-package-name.git"
+  },
+  "homepage": "https://github.com/typed-typings/npm-validate-npm-package-name#readme",
+  "keywords": [
+    "typings",
+    "typed",
+    "validate-npm-package-name"
+  ],
+  "bugs": {
+    "url": "https://github.com/typed-typings/npm-validate-npm-package-name/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ts-node": "^0.5.5",
+    "tslint": "^3.5.0",
+    "typescript": "^1.8.2",
+    "validate-npm-package-name": "^2.2.2"
+  }
+}
