@@ -26,9 +26,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "ts-node": "^0.5.5",
-    "tslint": "^3.5.0",
-    "typescript": "^1.8.2",
-    "validate-npm-package-name": "^2.2.2"
+    "ts-node": "^3.0.3",
+    "tslint": "^5.2.0",
+    "typescript": "^2.3.2",
+    "validate-npm-package-name": "^3.0.0"
   }
 }
